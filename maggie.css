@@ -39,7 +39,8 @@ input,
 input,
 sub,
 figcaption,
-span {
+span,
+button {
   font-family: 'Roboto Slab', serif;
   font-style: italic;
 }
@@ -173,7 +174,6 @@ body {
   flex-direction: column;
   margin: auto 10%;
   padding-top: 5%;
-  background-color: #aabcbb;
 }
 
 #gallery-h2{
@@ -224,6 +224,8 @@ body {
 
 .price-element {
   flex-grow: 1;
+  display: flex;
+  flex-direction:column;
   border-radius: 10%;
   border-style: solid;
   border-width: thin;
@@ -242,6 +244,19 @@ body {
   text-align: justify;
   display: block;
   margin: 3vw;
+}
+
+.price-button{
+  border:none;
+  width: 100%;
+  height:3vw;
+  font-size:1.6vw;
+  font-weight: lighter;
+}
+
+.price-element div{
+  justify-content: center;
+  margin: auto 30%;
 }
 
 #footer-div {
