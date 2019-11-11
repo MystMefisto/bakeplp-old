@@ -172,14 +172,14 @@ body {
   padding-top: 5%;
 }
 
-#gallery-h2{
+#gallery-h2 {
   text-align: center;
   background-color: #f4add4;
-  margin:auto 30%
+  margin: auto 30%
 }
 
-#gallery-description{
- text-align: center; 
+#gallery-description {
+  text-align: center;
 }
 
 .gallery-element {
@@ -195,7 +195,7 @@ body {
   width: 100%;
 }
 
-.gallery-caption{
+.gallery-caption {
   font-size: 1.3vw;
   font-weight: 300;
   background-color: #f4adb0;
@@ -216,7 +216,7 @@ body {
 
 #price-h2 {
   background-color: #f4add4;
-  margin:auto 30%;
+  margin: auto 30%;
   text-align: center;
   display: block;
   flex-grow: 100%;
@@ -227,7 +227,7 @@ body {
 .price-element {
   flex-grow: 1;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   border-radius: 10%;
   border-style: solid;
   border-width: thin;
@@ -235,7 +235,7 @@ body {
   margin: 1%;
   max-width: 33.3%;
   max-height: 30em;
-  background-color:rgba(222, 250, 249, 1);
+  background-color: rgba(222, 250, 249, 1);
 }
 
 .prices-title {
@@ -248,18 +248,30 @@ body {
   margin: 3vw;
 }
 
-.price-button{
-  border:none;
+.price-button {
+  border: none;
   width: 100%;
-  height:3vw;
-  font-size:1.6vw;
+  height: 3vw;
+  font-size: 1.6vw;
   font-weight: lighter;
   background-color: #f4cdad;
 }
 
-.price-element div{
+.price-element div {
   justify-content: center;
   margin: auto 33%;
+}
+
+#button1 {
+  margin-top: 55%;
+}
+
+#button2 {
+  margin-top: 70%;
+}
+
+#button3 {
+  margin-bottom: 15%;
 }
 
 #footer-div {
@@ -295,9 +307,88 @@ span {
 }
 
 @media(max-device-width:500px) {
+  .nav-link a {
+    font-size: 3vw;
+  }
 
-  #div-form{
-    margin: 25% 2%;
+  h2 {
+    font-size: 6vw;
+  }
+
+  h3 {
+    font-size: 4vw;
+  }
+
+  #div-form {
+    padding-top: 15%;
+  }
+
+  #form{
+    display:flex;
+  }
+
+  #email::placeholder{
+    font-size: 3vw;
+  }
+
+  #email{
+    flex-grow: 3;
+  }
+
+  #submit{
+    flex-grow: 1;
+    font-size: 3vw;
+  }
+
+  #main {
+    padding-top: 20%;
+  }
+
+  #service-h2{
+    margin:auto 10%;
+  }
+
+  .service_description {
+    font-size: 3vw;
+  }
+
+  #gallery-div {
+    padding-top: 17%;
+  }
+
+  #gallery-h2 {
+    margin: auto 5%;
+  }
+
+  #prices{
+    padding-top:15%;
+  }
+
+  #price-element-div {
+    flex-direction: column;
+  }
+
+  .price-element {
+    max-width: 100%;
+    border-radius: 5%;
+  }
+
+  .price-element p {
+    margin: 5% 10%;
+    padding-bottom: 10%;
+    font-size: 2.7vw;
+  }
+
+  #button1,
+  #button2,
+  #button3 {
+    padding: 0%;
+    margin: 0% 0% 10% 0%;
+    font-size: 2.2vw;
+  }
+
+  .footer_link {
+    font-size: 1.8vw;
   }
 
 }
