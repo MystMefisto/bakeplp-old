@@ -321,7 +321,7 @@ span {
   font-size: 1.35vw;
   }
 
-@media(max-device-width:500px) {
+@media(max-device-width:800px) {
   .nav-link a {
     font-size: 4.2vw;
   }
