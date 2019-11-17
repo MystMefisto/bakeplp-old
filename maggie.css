@@ -147,7 +147,7 @@ body {
 }
 
 .service-img {
-  width: 6em;
+  width: 15%;
   height: auto;
   flex-grow: 1;
 
@@ -340,8 +340,8 @@ span {
   }
 
   #div-form {
-    padding-top: 15%;
-    margin:auto 10%;
+    padding-top: 25%;
+    margin:0%;
   }
 
   #form{
@@ -366,18 +366,32 @@ span {
     margin:auto 10%;
   }
 
+  .service_container{
+    flex-direction:column;
+    margin:0;
+  }
+
   #service-h2{
-    margin:auto 10%;
+    margin:0;
+  }
+
+  .service_div{
+    align-items: center;
   }
 
   .service_description {
     font-size: 3vw;
-    width: 70%;
+    width: 100%;
+  }
+
+  .service-img{
+    margin:10%;
+    width: 45%;
   }
 
   #gallery-div {
     padding-top: 17%;
-    margin: auto 5%;
+    margin: auto;
   }
 
   #gallery-h2 {
@@ -386,11 +400,12 @@ span {
 
   #prices{
     padding-top:15%;
-    margin:auto 15%;
+    margin:auto;
   }
 
   #price-element-div {
     flex-direction: column;
+    margin-bottom: 5%;
   }
 
   .price-element {
@@ -409,7 +424,8 @@ span {
   #button3 {
     padding: 0%;
     margin: 0% 0% 10% 0%;
-    font-size: 2.2vw;
+    font-size: 3.5vw;
+    height: auto;
   }
 
   #footer-div{
