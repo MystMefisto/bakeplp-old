@@ -62,28 +62,29 @@ body {
   font-size: 2vw;;
   display: flex;
   width: 101%;
-  height: 9.5%;
+  height: 14vh;
   position: fixed;
   top: -1%;
   left: -1%;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgba(244, 173, 177, .9);
+  background-color:#CDCFF8;
   z-index: 2;
   font-weight: lighter;
+  transition: top 0.3s;
 }
 
 #header-img {
-  margin-top:.7%;
-  margin-left:4%;
-  width: 15%;
-  height: auto;
+  margin:1%;
+  padding:.5% 2% 1% 2%;
+  width: 15vw;
+  height:7.5vh;
 }
 
 #link-bar {
   padding-right: 4%;
   flex-grow: 1;
-  align-items: center;
+  align-items: end;
   justify-content: flex-end;
   text-align: center;
   display: inline-flex;
@@ -91,50 +92,22 @@ body {
 
 .nav-link {
   margin: 1% 4%;
-  color: white;
-  font-size:1.5vw
-}
-
-#div-form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex-grow: 2;
-  margin-top: 4%;
-  align-self: center;
-  justify-content: center;
-}
-
-#form {
-  width: 100%;
-  flex-wrap: wrap;
-  flex-grow: 3;
-  padding-bottom:25% ;
-}
-
-#email,#email::placeholder{
-  font-size: 1.2vw;
-}
-
-#submit {
-  flex-grow: 1;
-  border: none;
-  font-size:1vw;
-  margin:0;
-  padding:2.6%;
+  color: black;
+  font-size:1.5vw;
+  font-weight: 400;
 }
 
 #main {
   display: flex;
   flex-direction: column;
   flex-grow: 2;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 
 #service-h2 {
   flex-grow: 1;
   text-align: center;
-  background-color: #f4add4;
+  background-color: #F6CDF8;
   margin: auto 25%;
 }
 
@@ -186,7 +159,7 @@ body {
 
 #gallery-h2 {
   text-align: center;
-  background-color: #f4add4;
+  background-color: #F6CDF8;
   margin: auto 30%
 }
 
@@ -208,9 +181,9 @@ body {
 }
 
 .gallery-caption {
-  font-size: 1.3vw;
+  font-size: 1.55vw;
   font-weight: 300;
-  background-color: #f4adb0;
+  background-color: #F6CDF8;
 }
 
 #prices {
@@ -228,7 +201,7 @@ body {
 }
 
 #price-h2 {
-  background-color: #f4add4;
+  background-color: #F6CDF8;
   margin: auto 30%;
   text-align: center;
   display: block;
@@ -266,8 +239,8 @@ body {
   width: 100%;
   height: 3vw;
   font-size: 1.6vw;
-  font-weight: lighter;
-  background-color: #f4cdad;
+  font-weight: 500;
+  background-color: #CDCFF8;
 }
 
 .price-element div {
@@ -289,10 +262,9 @@ body {
 
 #footer-div {
   position: relative;
-  padding: .5%;
+  padding: 1%;
   text-align: right;
-  width: 80%;
-  margin: 2% 10% -2% 10%;
+  width: 100%;
   background: #567a78;
 }
 
@@ -337,28 +309,6 @@ span {
 
   h3 {
     font-size: 4vw;
-  }
-
-  #div-form {
-    padding-top: 25%;
-    margin:0%;
-  }
-
-  #form{
-    display:flex;
-  }
-
-  #email::placeholder{
-    font-size: 3vw;
-  }
-
-  #email{
-    flex-grow: 3;
-  }
-
-  #submit{
-    flex-grow: 1;
-    font-size: 3vw;
   }
 
   #main {
