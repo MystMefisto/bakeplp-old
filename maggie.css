@@ -14,17 +14,17 @@ h3 {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 7vw;
 }
 
 
 h2 {
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 
 
 h3 {
-  font-size: 1.8vw;
+  font-size: 2.5vw;
 }
 
 p {
@@ -108,7 +108,7 @@ body {
   flex-grow: 1;
   text-align: center;
   background-color: #F6CDF8;
-  margin: auto 25%;
+  margin: auto 20%;
 }
 
 .service_container {
@@ -144,8 +144,8 @@ body {
 .service_description {
   flex-grow: 3;
   text-align: justify;
-  width: 50%;
-  margin-bottom: 4%;
+  width: 65%;
+  margin-bottom: 1%;
 }
 
 #gallery-div {
@@ -262,15 +262,14 @@ body {
 
 #footer-div {
   position: relative;
-  padding: 1%;
-  text-align: right;
-  width: 100%;
+  width: 100vw;
   background: #567a78;
+  margin:-1vh -1vw;
+  box-sizing: border-box;
 }
 
-#footer ul {
+#footer ul { 
   margin-right: 1%;
-  text-align: right;
   background: #567a78;
 }
 
@@ -291,6 +290,7 @@ span {
   display: inline-flex;
   text-align: center;
   font-size: 1.35vw;
+  margin-left: 1.5vw;
   }
 
 @media(max-device-width:800px) {
@@ -308,7 +308,7 @@ span {
   }
 
   h3 {
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 
   #main {
@@ -319,6 +319,7 @@ span {
   .service_container{
     flex-direction:column;
     margin:0;
+    width:80vw;
   }
 
   #service-h2{
