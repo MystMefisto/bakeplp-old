@@ -56,6 +56,7 @@ body {
   background-color: #cdf8f6;
   display: flex;
   flex-direction: column;
+  margin:0;
 }
 
 #nav-bar {
@@ -75,10 +76,10 @@ body {
 }
 
 #header-img {
-  margin:1%;
-  padding:.5% 2% 1% 2%;
-  width: 15vw;
-  height:7.5vh;
+  margin:.3% 1%;
+  padding:.2% 2% 10% 2%;
+  width: 20vw;
+  height:12vh;
 }
 
 #link-bar {
@@ -113,7 +114,7 @@ body {
 
 .service_container {
   display: flex;
-  width: 100%;
+  width: auto;
   flex-direction: row;
   margin: 0% 10%;
   align-items: center;
@@ -262,10 +263,9 @@ body {
 
 #footer-div {
   position: relative;
-  width: 100vw;
+  width: auto;
   background: #567a78;
-  margin:-1vh -1vw;
-  box-sizing: border-box;
+  margin:0;
 }
 
 #footer ul { 
